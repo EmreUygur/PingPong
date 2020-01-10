@@ -167,7 +167,7 @@ class Game {
     this.draw()
 
     /*  Listening Keyboard Events  */
-      document.addEventListener('keydown', (e) => this.pressedTo(e))
+    document.addEventListener('keydown', (e) => this.pressedTo(e))
     document.addEventListener('keyup', (e) => this.releasedFrom(e))
 
     /*  Positioning The Ball And Giving It an Initial Speed For Random Side  */
